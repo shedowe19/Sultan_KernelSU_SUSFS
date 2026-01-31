@@ -234,6 +234,7 @@ jobs:
           echo "CONFIG_AIO=y" >> $CONFIG_FILE
           echo "CONFIG_PROC_SYSCTL=y" >> $CONFIG_FILE
           echo "CONFIG_SYSVIPC_SYSCTL=y" >> $CONFIG_FILE
+          echo "CONFIG_PSI=y" >> $CONFIG_FILE
           
           # Firmware
           echo "CONFIG_FW_LOADER=y" >> $CONFIG_FILE
